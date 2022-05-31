@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This project contains personal portfolio with enabling all CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT20126292/Portfolio.git"
+  },
+  "author": "kavisha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IT20126292/Portfolio/issues"
+  },
+  "homepage": "https://github.com/IT20126292/Portfolio#readme"
+}
