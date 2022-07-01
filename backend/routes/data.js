@@ -354,28 +354,7 @@ router.get("/profile", auth, async (req, res) => {
     }
 });
 
-//Remove Token From The Local Storage(Logout)
-router.post("/logout", auth, async (req, res) => {
-    try {
-      req.pos.tokens = req.pos.tokens.filter((token) => {
 
-        return token.token !== req.token;
-
-      });
-
-      await req.pos.save();
-
-      res.status(200).send("Logout successfully");
-
-    } catch (error) {
-
-      res.status(500).send(error.message);
-
-      console.log(error.message);
-
-    } 
-
-});
 
 module.exports = router;
 
